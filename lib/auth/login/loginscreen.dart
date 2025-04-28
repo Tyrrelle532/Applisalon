@@ -48,7 +48,8 @@ class LoginPage extends StatelessWidget {
         const SizedBox(height: 20),
         ElevatedButton(
           onPressed: () {
-            MaterialPage(child: MenuNav());
+           Navigator.of(context).push(MaterialPageRoute(
+              builder: (context) =>  MenuNav()));
           },
           style: ElevatedButton.styleFrom(
             backgroundColor: const Color(0xFFFF6B6B),
@@ -57,7 +58,8 @@ class LoginPage extends StatelessWidget {
             ),
             minimumSize: const Size(double.infinity, 50),
           ),
-          child: const Text("Login"),
+          child: const Text("Connexion",
+          style: TextStyle(color: Colors.white),),
         ),
       ],
     );

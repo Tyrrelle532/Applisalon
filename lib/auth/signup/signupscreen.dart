@@ -82,7 +82,7 @@ class _SignUpPageState extends State<SignUpPage> {
             const Text("Remember Me"),
           ],
         ),
-        const SizedBox(height: 10),
+        const SizedBox(height: 05),
 
         ElevatedButton(
           onPressed: () {
@@ -98,9 +98,10 @@ class _SignUpPageState extends State<SignUpPage> {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(20),
             ),
-            minimumSize: const Size(double.infinity, 50),
+            minimumSize: const Size(double.infinity, 40),
           ),
-          child: const Text("Sign-up"),
+          child: const Text("S'inscrire",
+          style: TextStyle(color: Colors.white),),
         ),
       ],
     );

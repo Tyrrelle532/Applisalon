@@ -78,7 +78,7 @@ class _AuthScreenState extends State<AuthScreen> {
                               padding: const EdgeInsets.symmetric(vertical: 10),
                               child: Center(
                                 child: Text(
-                                  "Login",
+                                  "Connexion",
                                   style: TextStyle(
                                     color: _selectedIndex == 0
                                         ? Colors.white
@@ -104,7 +104,7 @@ class _AuthScreenState extends State<AuthScreen> {
                               padding: const EdgeInsets.symmetric(vertical: 10),
                               child: Center(
                                 child: Text(
-                                  "Sign-up",
+                                  "S'inscrire",
                                   style: TextStyle(
                                     color: _selectedIndex == 1
                                         ? Colors.white

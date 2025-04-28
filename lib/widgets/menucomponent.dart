@@ -15,7 +15,7 @@ class _MenuNavState extends State<MenuNav> {
   int index_color = 0;
 
   // Exemple d'écrans pour tester — à remplacer par tes vraies pages
-  final List<Widget> screens = <Widget>[BeautyHomePage(),appoiementscreen(),Galleryscreen() , Profilscreen()];
+  final List<Widget> screens = <Widget>[BeautyHomePage(),appoiementscreen(),Galleryscreen() , ProfilePage()];
 
   @override
   Widget build(BuildContext context) {
