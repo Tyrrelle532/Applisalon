@@ -67,7 +67,7 @@ class BeautyHomePage extends StatelessWidget {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(16),
                     child: Image.asset(
-                      "images/promo.png", // image promo
+                      "images/promo.jpg", // image promo
                       width: 100,
                       height: 100,
                       fit: BoxFit.cover,
@@ -116,9 +116,9 @@ class BeautyHomePage extends StatelessWidget {
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: const [
-                  SpecialistCard("Doe John", "732 8888 111", "images/person1.jpg", 3),
-                  SpecialistCard("Lucy", "732 8888 111", "images/person2.jpg", 4),
-                  SpecialistCard("Laila", "732 8888 111", "images/person3.jpg", 5),
+                  SpecialistCard("Doe John", "732 8888 111", "images/promo.jpg", 3),
+                  SpecialistCard("Lucy", "732 8888 111", "images/promo.jpg", 4),
+                  SpecialistCard("Laila", "732 8888 111", "images/promo.jpg", 5),
                 ],
               ),
             ),
